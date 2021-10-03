@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String fileName = "D:\\EDU\\JAVA Native\\IO\\OpenCSV\\DataKaryawan.csv";
+		String fileName = "D:/EDU/JAVA Native/IO/OpenCSV/DataKaryawan.csv";
 		try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
 
 			// Read All Row
@@ -19,7 +19,7 @@ public class Main {
 
 			// Skip Header
 			String[] lineInArray;
-			int i = 0;
+			int      i = 0;
 			try {
 				while ((lineInArray = reader.readNext()) != null) {
 					i++;
