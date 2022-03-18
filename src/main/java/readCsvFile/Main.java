@@ -13,7 +13,7 @@ public class Main {
 		String fileName = "D:/EDU/JAVA Native/IO/OpenCSV/DataKaryawan.csv";
 		try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
 
-			// Read all Row
+			// Read all row
 			// List<String[]> r = reader.readAll();
 			// r.forEach(x -> System.out.println(Arrays.toString(x)));
 
