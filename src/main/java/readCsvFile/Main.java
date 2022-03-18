@@ -17,7 +17,7 @@ public class Main {
 			// List<String[]> r = reader.readAll();
 			// r.forEach(x -> System.out.println(Arrays.toString(x)));
 
-			// Read row without Header
+			// Read row without header
 			String[] lineInArray;
 			int i = 0;
 			try {
