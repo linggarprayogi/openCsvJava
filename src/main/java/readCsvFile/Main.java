@@ -10,10 +10,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String fileName = "D:/EDU/JAVA Native/IO/OpenCSV/DataKaryawan.csv";
+		String fileName = "D:/EDU/JAVA Native/IO/readCsvFile/src/main/resources/file/DataKaryawan.csv";
 		try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
 
-			// Read all rows
+			// Read all row
 			// List<String[]> r = reader.readAll();
 			// r.forEach(x -> System.out.println(Arrays.toString(x)));
 
