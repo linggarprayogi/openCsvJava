@@ -2,3 +2,4 @@ target/
 !.mvn/wrapper/mavn-wapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+.classpath
